@@ -1,0 +1,152 @@
+/*------------------------------------------------------------------
+Last change:    24/04/21 [fixed Float bug, vf]
+
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+  01. Theme Default Css
+
+
+  -------------------------------------------------------------------*/
+
+/*
+/* Font Face */
+
+
+
+/*
+==========================================
+   01. Theme Default CSS
+==========================================
+*/
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color: #2D3735;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ 
+  margin-bottom:0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+}
+a,
+i,
+button,
+img,
+input,
+span,
+*:before,
+*:after {
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+button:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+.form-control:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:focus {
+  color: inherit;
+  outline: medium none;
+  transform: scale(1);
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-weight: normal;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'calibri-regular';
+}
+.custom-btn{
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  background:#008D6A;
+  text-align: center;
+  outline: none;
+  margin-top: 1.4rem;
+  font-size: 18px;
+  border: none;
+  transition: .3s;
+  border-radius: 5px;
+}
+.underline {
+  text-decoration: underline;
+}
+.content-top-space {
+  margin-top: 45px;
+}
+
+.box_shadow {
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px #0404040d;
+  background: #fff;
+}
+.pt-top-100{
+  padding-top: 100px;
+}
+.pb-top-100{
+  padding-bottom: 100px;
+}
+.content-padding-t{
+  padding-top: 60px;
+}
+.content-padding-b{
+  padding-bottom: 60px;
+}
+.section-padding{
+  padding: 60px 0px;
+}

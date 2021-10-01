@@ -1,0 +1,232 @@
+/*
+==========================================
+   01. Theme Default CSS
+==========================================
+*/
+
+:root {
+    --blue: #0B2451;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+ 
+    line-height: 1.5;
+    background: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/bottom-design.png);
+    background-color: #9acea0;
+    background-attachment: scroll;
+    background-position: center top;
+    
+}
+
+p {
+    font-weight: 400;
+       font-size: 14px;
+       margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #069;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+
+input, select, textarea {
+    outline: none;
+    border: none;
+}
+
+a, i, button, img, input, span, *:before, *:after {
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: none;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+.black-c {
+    color: #202020;
+}
+
+.social-b-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #09c;
+}
+.font-20 {
+    font-size: 20px;
+    color: var(--blue);
+}
+.heading-t{
+    font-size: 22px;
+    line-height: 1.3;
+    padding-bottom: 10px ;
+    font-weight: 700;
+    color: #069;
+    
+}
+.title-img img {
+    width: 100%;
+    margin: 10px 0px;
+}
+.link-title {
+    font-size: 18px;
+    line-height: 1.375;
+    font-weight: bold;
+    padding-top: 14px;
+    margin-left: 20px;
+    padding-bottom: 7px;
+    font-weight: 700;
+    color: #069;
+    display: block;
+}
+.free-like{
+    font-size: 16px;
+    line-height: 1.375;
+    font-weight: 500;
+    color: #069;
+    padding-top: 5px;
+}
+.social-shadow {
+    border-radius: 2px;
+    background-color: #fafafa;
+    box-shadow: inset 0 0 1px #202020, 1px 1px 1px #7c7c7c;
+    padding: 25px 20px 18px;
+}
+.join-us {
+    font-size: 13px;
+    padding-top: 7px;
+    margin-left: 30px;
+    color: #202020;
+}
+.headaer-menu {
+    text-align: center;
+    padding: 60px 0px 50px;
+}
+/* .headaer-menu ul{
+    height: 40px;
+} */
+.headaer-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    float: left;
+}
+.headaer-menu ul li.menu-link:hover{
+    background-color: #39f;
+    opacity: .8;
+}
+.headaer-menu ul li.logo{
+    position: relative;
+        transition: all .3s;
+}
+.headaer-menu ul li.logo:hover::after {
+    visibility: visible;
+}
+.headaer-menu ul li.logo::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background:#069;
+    visibility: hidden;
+}
+
+.headaer-menu ul li.menu-link {
+    background:#069;
+    padding: 5px 11px;
+    color: #fff;
+}
+.headaer-menu ul li.menu-link {
+    background: #069;
+    padding: 6.5px 15px;
+}
+.headaer-menu ul li.menu-link a{
+        font-weight: 500;
+    color: #fff;
+}
+.footer-link ul li {
+    display: inline-block;
+}
+.footer-link ul li a:hover {
+    color: #fc0;
+    background-color: #39f;
+    opacity: .8;
+}
+
+.footer-link ul li a {
+    color: #fff;
+    background-color: #158;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 17px;
+    margin: 2px;
+    border-radius: 2px;
+        font-weight: 500;
+}
+.org-content ul li {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.title-img img {
+    max-height: 100px;
+    height: 100px;
+}
+@media (max-width: 991px) {
+    .social-b-title {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .headaer-menu {
+        padding: 30px 0px 20px;
+    }
+    .marketing-right{
+        margin-top: 20px;
+    }
+   
+}
